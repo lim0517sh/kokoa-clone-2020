@@ -9,7 +9,7 @@
 </head>
 <body id="chat-screen">
     
-    <div class="status-bar status-bar__chat">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -32,7 +32,7 @@
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">승현</h1>
+            <h1 class="alt-header__title">Nicolas</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
@@ -44,7 +44,42 @@
         <div class="chat__timestamp">
             Thuesday, June 30, 2020
         </div>
+        <div class="message-row">
+            <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"/>
+            <div class="message-row__content">
+                <span class="message__author">Nicolas</span>
+                <div class="message__content">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__content">
+                    <span class="message__bubble">Nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+
+
     </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fa-regular fa-face-grin"></i>
+            <button>
+                <i class="fa-regular fa-circle-up"></i>
+            </button>
+        </div>
+    </form>
 
     
 

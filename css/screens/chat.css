@@ -159,3 +159,32 @@
 .reply__column button:active {
   outline: none;
 }
+
+@keyframes message-move {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.message-row {
+  animation: message-move 2s ease-in-out;
+}
+
+@keyframes message-move-own {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.message-row__own {
+  animation: message-move-own 1s ease-in-out;
+}

@@ -12,6 +12,10 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
 }
@@ -27,4 +31,15 @@
 
 .screen-header__icons .fa-gear:hover {
   animation: rotategear 2s linear infinite;
+}
+
+#red-dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: 0;
+  right: -5px;
 }
